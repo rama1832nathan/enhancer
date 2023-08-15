@@ -1,0 +1,38 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+body{
+    background-color:#3c3d3e!important;
+}
+li{
+    list-style-type: none!important;
+}
+a{
+    color:#000!important;
+    text-align: center;
+    font-size: 30px;
+}
+.nav-link{
+    overflow: hidden!important;
+}
+.nav-link:hover{
+    color: #fff!important;
+    background-color: #000!important;
+    border-radius: 40px!important;
+}
+.container{
+    background-color: #383838;
+    color: white;
+    height: 80vh;
+    width: 80vw;
+    border-radius: 40px;
+     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.container img{
+    border-radius: 40px;
+}
+.h5{
+    text-align: justify!important;
+    font-family: monospace!important;
+    font-size: 35px;
+    font-weight: bold;
+}
+
